@@ -20,6 +20,7 @@ public class Click_WindUp : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown(0))
 		{
+			Debug.Log("Winding Up Device");
 			if(isWound == 0){
 //				anim.SetTrigger("Deactive");
 //				isWound = 1;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// adds HeadNode to VRManager as a reference node
 
 public class Classroom_OnStart_AttachConstant : MonoBehaviour {
 

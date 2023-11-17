@@ -1,141 +1,395 @@
 fileFormatVersion: 2
 guid: 0edda5ec88b9bf94b83dbbf5ec7af640
-timeCreated: 1551379548
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bolt
-    100002: Bolt_001
-    100004: Bolt_002
-    100006: Bolt_003
-    100008: Bolt_004
-    100010: Bolt_005
-    100012: Bolt_006
-    100014: Bolt_007
-    100016: Bolt_008
-    100018: Bolt_009
-    100020: Bolt_010
-    100022: Bolt_011
-    100024: //RootNode
-    100026: Cube
-    100028: Cube_001
-    100030: Cube_002
-    100032: Cube_003
-    100034: Cylinder
-    100036: Door
-    100038: DoorFrame
-    100040: HandleFront
-    100042: HandleRear
-    100044: HandleRimFront
-    100046: HandleRimRear
-    100048: HingeBolt
-    400000: Bolt
-    400002: Bolt_001
-    400004: Bolt_002
-    400006: Bolt_003
-    400008: Bolt_004
-    400010: Bolt_005
-    400012: Bolt_006
-    400014: Bolt_007
-    400016: Bolt_008
-    400018: Bolt_009
-    400020: Bolt_010
-    400022: Bolt_011
-    400024: //RootNode
-    400026: Cube
-    400028: Cube_001
-    400030: Cube_002
-    400032: Cube_003
-    400034: Cylinder
-    400036: Door
-    400038: DoorFrame
-    400040: HandleFront
-    400042: HandleRear
-    400044: HandleRimFront
-    400046: HandleRimRear
-    400048: HingeBolt
-    2100000: MetalGrey
-    2100002: brushedmetal
-    2100004: unnamed
-    2100006: Shiny
-    2300000: Bolt
-    2300002: Bolt_001
-    2300004: Bolt_002
-    2300006: Bolt_003
-    2300008: Bolt_004
-    2300010: Bolt_005
-    2300012: Bolt_006
-    2300014: Bolt_007
-    2300016: Bolt_008
-    2300018: Bolt_009
-    2300020: Bolt_010
-    2300022: Bolt_011
-    2300024: Cube
-    2300026: Cube_001
-    2300028: Cube_002
-    2300030: Cube_003
-    2300032: Cylinder
-    2300034: Door
-    2300036: DoorFrame
-    2300038: HandleFront
-    2300040: HandleRear
-    2300042: HandleRimFront
-    2300044: HandleRimRear
-    2300046: HingeBolt
-    3300000: Bolt
-    3300002: Bolt_001
-    3300004: Bolt_002
-    3300006: Bolt_003
-    3300008: Bolt_004
-    3300010: Bolt_005
-    3300012: Bolt_006
-    3300014: Bolt_007
-    3300016: Bolt_008
-    3300018: Bolt_009
-    3300020: Bolt_010
-    3300022: Bolt_011
-    3300024: Cube
-    3300026: Cube_001
-    3300028: Cube_002
-    3300030: Cube_003
-    3300032: Cylinder
-    3300034: Door
-    3300036: DoorFrame
-    3300038: HandleFront
-    3300040: HandleRear
-    3300042: HandleRimFront
-    3300044: HandleRimRear
-    3300046: HingeBolt
-    4300000: Bolt_008
-    4300002: Bolt_007
-    4300004: Bolt_006
-    4300006: Cube_001
-    4300008: HingeBolt
-    4300010: Door
-    4300012: Cube_003
-    4300014: Bolt_011
-    4300016: Bolt_010
-    4300018: Bolt_009
-    4300020: Bolt_002
-    4300022: Bolt_001
-    4300024: Bolt
-    4300026: Cube
-    4300028: HandleRimFront
-    4300030: HandleFront
-    4300032: HandleRear
-    4300034: HandleRimRear
-    4300036: Cylinder
-    4300038: Cube_002
-    4300040: Bolt_005
-    4300042: Bolt_004
-    4300044: Bolt_003
-    4300046: DoorFrame
-    7400000: Default Take
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bolt
+  - first:
+      1: 100002
+    second: Bolt_001
+  - first:
+      1: 100004
+    second: Bolt_002
+  - first:
+      1: 100006
+    second: Bolt_003
+  - first:
+      1: 100008
+    second: Bolt_004
+  - first:
+      1: 100010
+    second: Bolt_005
+  - first:
+      1: 100012
+    second: Bolt_006
+  - first:
+      1: 100014
+    second: Bolt_007
+  - first:
+      1: 100016
+    second: Bolt_008
+  - first:
+      1: 100018
+    second: Bolt_009
+  - first:
+      1: 100020
+    second: Bolt_010
+  - first:
+      1: 100022
+    second: Bolt_011
+  - first:
+      1: 100024
+    second: //RootNode
+  - first:
+      1: 100026
+    second: Cube
+  - first:
+      1: 100028
+    second: Cube_001
+  - first:
+      1: 100030
+    second: Cube_002
+  - first:
+      1: 100032
+    second: Cube_003
+  - first:
+      1: 100034
+    second: Cylinder
+  - first:
+      1: 100036
+    second: Door
+  - first:
+      1: 100038
+    second: DoorFrame
+  - first:
+      1: 100040
+    second: HandleFront
+  - first:
+      1: 100042
+    second: HandleRear
+  - first:
+      1: 100044
+    second: HandleRimFront
+  - first:
+      1: 100046
+    second: HandleRimRear
+  - first:
+      1: 100048
+    second: HingeBolt
+  - first:
+      4: 400000
+    second: Bolt
+  - first:
+      4: 400002
+    second: Bolt_001
+  - first:
+      4: 400004
+    second: Bolt_002
+  - first:
+      4: 400006
+    second: Bolt_003
+  - first:
+      4: 400008
+    second: Bolt_004
+  - first:
+      4: 400010
+    second: Bolt_005
+  - first:
+      4: 400012
+    second: Bolt_006
+  - first:
+      4: 400014
+    second: Bolt_007
+  - first:
+      4: 400016
+    second: Bolt_008
+  - first:
+      4: 400018
+    second: Bolt_009
+  - first:
+      4: 400020
+    second: Bolt_010
+  - first:
+      4: 400022
+    second: Bolt_011
+  - first:
+      4: 400024
+    second: //RootNode
+  - first:
+      4: 400026
+    second: Cube
+  - first:
+      4: 400028
+    second: Cube_001
+  - first:
+      4: 400030
+    second: Cube_002
+  - first:
+      4: 400032
+    second: Cube_003
+  - first:
+      4: 400034
+    second: Cylinder
+  - first:
+      4: 400036
+    second: Door
+  - first:
+      4: 400038
+    second: DoorFrame
+  - first:
+      4: 400040
+    second: HandleFront
+  - first:
+      4: 400042
+    second: HandleRear
+  - first:
+      4: 400044
+    second: HandleRimFront
+  - first:
+      4: 400046
+    second: HandleRimRear
+  - first:
+      4: 400048
+    second: HingeBolt
+  - first:
+      21: 2100000
+    second: MetalGrey
+  - first:
+      21: 2100002
+    second: brushedmetal
+  - first:
+      21: 2100004
+    second: unnamed
+  - first:
+      21: 2100006
+    second: Shiny
+  - first:
+      23: 2300000
+    second: Bolt
+  - first:
+      23: 2300002
+    second: Bolt_001
+  - first:
+      23: 2300004
+    second: Bolt_002
+  - first:
+      23: 2300006
+    second: Bolt_003
+  - first:
+      23: 2300008
+    second: Bolt_004
+  - first:
+      23: 2300010
+    second: Bolt_005
+  - first:
+      23: 2300012
+    second: Bolt_006
+  - first:
+      23: 2300014
+    second: Bolt_007
+  - first:
+      23: 2300016
+    second: Bolt_008
+  - first:
+      23: 2300018
+    second: Bolt_009
+  - first:
+      23: 2300020
+    second: Bolt_010
+  - first:
+      23: 2300022
+    second: Bolt_011
+  - first:
+      23: 2300024
+    second: Cube
+  - first:
+      23: 2300026
+    second: Cube_001
+  - first:
+      23: 2300028
+    second: Cube_002
+  - first:
+      23: 2300030
+    second: Cube_003
+  - first:
+      23: 2300032
+    second: Cylinder
+  - first:
+      23: 2300034
+    second: Door
+  - first:
+      23: 2300036
+    second: DoorFrame
+  - first:
+      23: 2300038
+    second: HandleFront
+  - first:
+      23: 2300040
+    second: HandleRear
+  - first:
+      23: 2300042
+    second: HandleRimFront
+  - first:
+      23: 2300044
+    second: HandleRimRear
+  - first:
+      23: 2300046
+    second: HingeBolt
+  - first:
+      33: 3300000
+    second: Bolt
+  - first:
+      33: 3300002
+    second: Bolt_001
+  - first:
+      33: 3300004
+    second: Bolt_002
+  - first:
+      33: 3300006
+    second: Bolt_003
+  - first:
+      33: 3300008
+    second: Bolt_004
+  - first:
+      33: 3300010
+    second: Bolt_005
+  - first:
+      33: 3300012
+    second: Bolt_006
+  - first:
+      33: 3300014
+    second: Bolt_007
+  - first:
+      33: 3300016
+    second: Bolt_008
+  - first:
+      33: 3300018
+    second: Bolt_009
+  - first:
+      33: 3300020
+    second: Bolt_010
+  - first:
+      33: 3300022
+    second: Bolt_011
+  - first:
+      33: 3300024
+    second: Cube
+  - first:
+      33: 3300026
+    second: Cube_001
+  - first:
+      33: 3300028
+    second: Cube_002
+  - first:
+      33: 3300030
+    second: Cube_003
+  - first:
+      33: 3300032
+    second: Cylinder
+  - first:
+      33: 3300034
+    second: Door
+  - first:
+      33: 3300036
+    second: DoorFrame
+  - first:
+      33: 3300038
+    second: HandleFront
+  - first:
+      33: 3300040
+    second: HandleRear
+  - first:
+      33: 3300042
+    second: HandleRimFront
+  - first:
+      33: 3300044
+    second: HandleRimRear
+  - first:
+      33: 3300046
+    second: HingeBolt
+  - first:
+      43: 4300000
+    second: Bolt_008
+  - first:
+      43: 4300002
+    second: Bolt_007
+  - first:
+      43: 4300004
+    second: Bolt_006
+  - first:
+      43: 4300006
+    second: Cube_001
+  - first:
+      43: 4300008
+    second: HingeBolt
+  - first:
+      43: 4300010
+    second: Door
+  - first:
+      43: 4300012
+    second: Cube_003
+  - first:
+      43: 4300014
+    second: Bolt_011
+  - first:
+      43: 4300016
+    second: Bolt_010
+  - first:
+      43: 4300018
+    second: Bolt_009
+  - first:
+      43: 4300020
+    second: Bolt_002
+  - first:
+      43: 4300022
+    second: Bolt_001
+  - first:
+      43: 4300024
+    second: Bolt
+  - first:
+      43: 4300026
+    second: Cube
+  - first:
+      43: 4300028
+    second: HandleRimFront
+  - first:
+      43: 4300030
+    second: HandleFront
+  - first:
+      43: 4300032
+    second: HandleRear
+  - first:
+      43: 4300034
+    second: HandleRimRear
+  - first:
+      43: 4300036
+    second: Cylinder
+  - first:
+      43: 4300038
+    second: Cube_002
+  - first:
+      43: 4300040
+    second: Bolt_005
+  - first:
+      43: 4300042
+    second: Bolt_004
+  - first:
+      43: 4300044
+    second: Bolt_003
+  - first:
+      43: 4300046
+    second: DoorFrame
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -152,6 +406,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -166,17 +421,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -186,12 +447,15 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 4
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -201,14 +465,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1,56 +1,140 @@
 fileFormatVersion: 2
 guid: 52db159dfea118948a67a97a3e1d1263
-timeCreated: 1551379945
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Ceiling
-    100002: //RootNode
-    100004: Cube
-    100006: Floor
-    100008: WallBack
-    100010: WallFront
-    100012: WallLeft
-    100014: WallRight
-    400000: Ceiling
-    400002: //RootNode
-    400004: Cube
-    400006: Floor
-    400008: WallBack
-    400010: WallFront
-    400012: WallLeft
-    400014: WallRight
-    2100000: Material_001
-    2100002: Floor
-    2100004: Material_002
-    2100006: Material
-    2300000: Ceiling
-    2300002: Cube
-    2300004: Floor
-    2300006: WallBack
-    2300008: WallFront
-    2300010: WallLeft
-    2300012: WallRight
-    3300000: Ceiling
-    3300002: Cube
-    3300004: Floor
-    3300006: WallBack
-    3300008: WallFront
-    3300010: WallLeft
-    3300012: WallRight
-    4300000: Cube
-    4300002: Ceiling
-    4300004: WallBack
-    4300006: WallFront
-    4300008: WallRight
-    4300010: WallLeft
-    4300012: Floor
-    7400000: Default Take
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ceiling
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Cube
+  - first:
+      1: 100006
+    second: Floor
+  - first:
+      1: 100008
+    second: WallBack
+  - first:
+      1: 100010
+    second: WallFront
+  - first:
+      1: 100012
+    second: WallLeft
+  - first:
+      1: 100014
+    second: WallRight
+  - first:
+      4: 400000
+    second: Ceiling
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Cube
+  - first:
+      4: 400006
+    second: Floor
+  - first:
+      4: 400008
+    second: WallBack
+  - first:
+      4: 400010
+    second: WallFront
+  - first:
+      4: 400012
+    second: WallLeft
+  - first:
+      4: 400014
+    second: WallRight
+  - first:
+      21: 2100000
+    second: Material_001
+  - first:
+      21: 2100002
+    second: Floor
+  - first:
+      21: 2100004
+    second: Material_002
+  - first:
+      21: 2100006
+    second: Material
+  - first:
+      23: 2300000
+    second: Ceiling
+  - first:
+      23: 2300002
+    second: Cube
+  - first:
+      23: 2300004
+    second: Floor
+  - first:
+      23: 2300006
+    second: WallBack
+  - first:
+      23: 2300008
+    second: WallFront
+  - first:
+      23: 2300010
+    second: WallLeft
+  - first:
+      23: 2300012
+    second: WallRight
+  - first:
+      33: 3300000
+    second: Ceiling
+  - first:
+      33: 3300002
+    second: Cube
+  - first:
+      33: 3300004
+    second: Floor
+  - first:
+      33: 3300006
+    second: WallBack
+  - first:
+      33: 3300008
+    second: WallFront
+  - first:
+      33: 3300010
+    second: WallLeft
+  - first:
+      33: 3300012
+    second: WallRight
+  - first:
+      43: 4300000
+    second: Cube
+  - first:
+      43: 4300002
+    second: Ceiling
+  - first:
+      43: 4300004
+    second: WallBack
+  - first:
+      43: 4300006
+    second: WallFront
+  - first:
+      43: 4300008
+    second: WallRight
+  - first:
+      43: 4300010
+    second: WallLeft
+  - first:
+      43: 4300012
+    second: Floor
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -67,6 +151,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -81,17 +166,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -101,12 +192,15 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 4
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -116,14 +210,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
