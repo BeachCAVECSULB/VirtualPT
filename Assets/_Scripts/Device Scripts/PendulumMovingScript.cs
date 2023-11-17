@@ -14,10 +14,10 @@ public enum PendulumState
 
 public class PendulumMovingScript : MonoBehaviour
 {
-    public float minimumRotationSpeed = 0.5f;
-    public float rotationSpeed = 60f; 
-    public float startingAngle = 20f;
-    public float windupAngle = 120f;
+    public float minimumRotationSpeed;
+    public float rotationSpeed; 
+    public float startingAngle;
+    public float windupAngle;
     private float totalRotation = 0f;
 
     public GameObject pendulum;

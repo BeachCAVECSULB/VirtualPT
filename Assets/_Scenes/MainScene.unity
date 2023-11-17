@@ -536,8 +536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40eb3a10a8fcfbb4d87850c48b380067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumRotationSpeed: 0.5
-  rotationSpeed: 0.5
+  minimumRotationSpeed: 0.3
+  rotationSpeed: 0.3
   startingAngle: 20
   windupAngle: 60
   pendulum: {fileID: 1813140005}
