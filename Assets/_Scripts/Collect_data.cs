@@ -36,7 +36,6 @@ public class Collect_data : MonoBehaviour
         vrNode3D RShouldnode = MiddleVR.VRDisplayMgr.GetNode("RShoulderNode");
         rshould.transform.position = MVRTools.ToUnity(LShouldnode.GetPositionVirtualWorld());
 
-
         box = new Vector3(Mathf.Abs(rshould.transform.position.x - lshould.transform.position.x), Mathf.Abs(rshould.transform.position.y - chest.transform.position.y), 0);
         height= new Vector3(0, Mathf.Abs(head.transform.position.y), 0);
 

@@ -1,0 +1,25 @@
+Data Log for Virtual Clinic for 27-11-2023 -- 12:19 AM
+Swing Level: 4
+Haptic Feedback Level: 4
+Filename: testrun2
+--------------------------------------------------------
+Time: 14.19776	XRotation:   52.09993
+Time: 14.20892	XRotation:   49.75587
+Time: 14.21921	XRotation:   47.23634
+Time: 14.22939	XRotation:    44.2021
+Time: 14.23971	XRotation:   40.66045
+Time: 14.25054	XRotation:   36.58124
+Time: 14.26134	XRotation:   31.96194
+Time: 14.27233	XRotation:   26.79508
+Time: 14.28283	XRotation:    22.2523
+Time: 14.29343	XRotation:   16.02799
+Time: 14.30477	XRotation:   12.04771
+Time: 14.31639	XRotation:   12.04771
+Time: 14.32784	XRotation:   12.04771
+Time: 14.33911	XRotation:   12.04771
+Time: 14.34976	XRotation:   12.04771
+Time: 14.36096	XRotation:   12.04771
+Time: 14.37241	XRotation:   12.04771
+Time: 14.38297	XRotation:   12.04771
+Time: 14.39448	XRotation:   12.04771
+Time: 14.40586	XRotation:   12.04771

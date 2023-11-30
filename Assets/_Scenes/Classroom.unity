@@ -568,7 +568,7 @@ HingeJoint:
   m_Anchor: {x: 32.7, y: -6.5, z: -0.46}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.313848, y: -6.1051393, z: -0.52136546}
+  m_ConnectedAnchor: {x: 30.429316, y: -6.1051393, z: -0.54021174}
   m_UseSpring: 0
   m_Spring:
     spring: 5
@@ -2901,6 +2901,7 @@ GameObject:
   - component: {fileID: 1238446689}
   - component: {fileID: 1238446690}
   - component: {fileID: 1238446691}
+  - component: {fileID: 1238446692}
   m_Layer: 0
   m_Name: Device
   m_TagString: Untagged
@@ -2988,6 +2989,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 941d8c4fd85fcb346b2c4f0488e3eeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1238446692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238446686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb885067818d5a44b796e286a4dc535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScriptName: 
 --- !u!1001 &1299395062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4073,14 +4087,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813140005}
-  m_LocalRotation: {x: -0.65837836, y: -0.6583784, z: 0.25794953, w: -0.25794917}
+  m_LocalRotation: {x: -0.6963642, y: -0.69636434, z: 0.12278798, w: -0.12278761}
   m_LocalPosition: {x: 1.2906443, y: 2.396, z: -2.654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 213399419}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 42.79, y: -179.99998, z: 90.00001}
+  m_LocalEulerAnglesHint: {x: 20, y: -179.99998, z: 90.00001}
 --- !u!1 &1899829179
 GameObject:
   m_ObjectHideFlags: 0

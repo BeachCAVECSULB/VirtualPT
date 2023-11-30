@@ -1,0 +1,5 @@
+Data Log for Virtual Clinic for 21-11-2023 -- 11:45 PM
+Swing Level: 4
+Haptic Feedback Level: 3
+Filename: Datboi
+--------------------------------------------------------

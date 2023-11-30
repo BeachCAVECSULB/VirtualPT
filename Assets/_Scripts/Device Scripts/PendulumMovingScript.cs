@@ -19,8 +19,10 @@ public class PendulumMovingScript : MonoBehaviour
     public float startingAngle;
     public float windupAngle;
     private float totalRotation = 0f;
-
+    
     public GameObject pendulum;
+    public DataManager dataManagerScript;
+    private bool coroutineStarted = false;
 
     private PendulumState currentState = PendulumState.NotMoving;
 
@@ -32,6 +34,7 @@ public class PendulumMovingScript : MonoBehaviour
 
     void Update()
     {   
+        dataManagerScript = GameObject.Find("DataManager").GetComponent<DataManager>();
         switch (currentState)
         {
             case PendulumState.NotMoving:
@@ -42,6 +45,7 @@ public class PendulumMovingScript : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
                     currentState = PendulumState.Moving;
+                    coroutineStarted = false;
                 }
                 break;
 
@@ -58,6 +62,12 @@ public class PendulumMovingScript : MonoBehaviour
                 break;
 
             case PendulumState.Moving:
+                
+                if (!coroutineStarted)
+                {
+                    StartCoroutine(dataManagerScript.LogPendulumInfoCoroutine());
+                    coroutineStarted = true; 
+                }
                 rotationSpeed = rotationSpeed + Time.deltaTime * 10f;
                 totalRotation -= rotationSpeed;
                 pendulum.transform.rotation = Quaternion.Euler(totalRotation, -180, 90);
@@ -72,6 +82,15 @@ public class PendulumMovingScript : MonoBehaviour
             print("Collision with user");
             currentState = PendulumState.NotMoving;
         }
+    }
+    //takes swinglevel from mainmenu and sets pendulumwindup to that level
+    public void SetWindupAngle(float swingLevel)
+    {
+        float maxSwingAngle = 60f;
+        float minSwingAngle = 20f;
+        // Use Mathf.Lerp to interpolate between minSwingAngle and maxSwingAngle based on swingLevel
+        float normalizedSwingLevel = swingLevel / 5f; // Normalize swingLevel to be in the range [0, 1]
+        windupAngle = Mathf.Lerp(minSwingAngle, maxSwingAngle, normalizedSwingLevel);
     }
 }
 
