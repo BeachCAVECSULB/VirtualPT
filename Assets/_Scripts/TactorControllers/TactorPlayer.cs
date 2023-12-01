@@ -12,10 +12,19 @@ using UnityEngine.UIElements;
 
 public class TactorPlayer : MonoBehaviour
 {
+    private static TactorPlayer instance = null;
+    public static TactorPlayer I { get => instance; }
+
     public GameObject tactorAutoSetup;
     public List<TactorAction> tactorActions = new List<TactorAction>(1);
     private TactorAutoSetup tas;
-    
+
+    private void Awake()
+    {
+        if (instance == null)
+            instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

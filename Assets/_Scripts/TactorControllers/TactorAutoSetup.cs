@@ -13,7 +13,9 @@ public class TactorAutoSetup : MonoBehaviour
     public bool testDeviceOnStartup = false;
     
     private int[] pulseDuration;
-    
+    //private List<int> recentlyFired = new List<int>();
+    private int[] recentlyFired;
+
     private TactorController tc;
     
     // Start is called before the first frame update
@@ -22,6 +24,7 @@ public class TactorAutoSetup : MonoBehaviour
         tc = GetComponent<TactorController>();
         pulseDuration = new int[tactorCount];
         for (var i = 0; i < tactorCount; i++) pulseDuration[i] = defaultPulseDuration;
+        recentlyFired = new int[tactorCount];
         StartCoroutine(AutoSetup());
     }
 
@@ -73,7 +76,9 @@ public class TactorAutoSetup : MonoBehaviour
     public void FireTactor(int tacIndex)
     {
         tc.FireTactor(tacIndex+1, pulseDuration[tacIndex]);
+        recentlyFired[tacIndex] = 1;
         TactorLogger.Debug($"TAS.FireTactor({tacIndex},{pulseDuration[tacIndex]});");
+        TactorLogger.Debug($"TAS Recents: {recentlyFired.ToString()}");
     }
 
     public void SetDuration(int tacIndex, int durMs)
@@ -92,6 +97,14 @@ public class TactorAutoSetup : MonoBehaviour
     {
         tc.SetFreq(tacIndex+1, freq);
         TactorLogger.Debug($"TAS.SetFreq({tacIndex},{freq});");
+    }
+
+    public int[] popRecentlyFired()
+    {
+        var temp = recentlyFired;
+        recentlyFired = new int[tactorCount];
+        //TactorLogger.Debug($"TAS recents :{recentlyFired},{temp});");
+        return temp;
     }
 
 }

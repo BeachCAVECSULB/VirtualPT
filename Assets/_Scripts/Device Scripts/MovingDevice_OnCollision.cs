@@ -25,7 +25,7 @@ public class MovingDevice_OnCollision : MonoBehaviour
     void OnCollisionEnter(Collision col)
     {
         // special action when colliding with the CharacterModel
-		if(col.gameObject.name == "Boz")
+		if(col.gameObject.CompareTag("User"))//col.gameObject.name == "Boz"
         {
 			thudSound.Play();
             Tdk.TdkInterface.Pulse(ret, 1, 250, 0);

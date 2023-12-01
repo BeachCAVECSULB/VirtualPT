@@ -66,6 +66,7 @@ public class PendulumMovingScript : MonoBehaviour
                 if (!coroutineStarted)
                 {
                     StartCoroutine(dataManagerScript.LogPendulumInfoCoroutine());
+                    StartCoroutine(dataManagerScript.LogLocationCoroutine());
                     coroutineStarted = true; 
                 }
                 rotationSpeed = rotationSpeed + Time.deltaTime * 10f;

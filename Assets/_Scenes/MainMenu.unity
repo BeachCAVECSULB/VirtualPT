@@ -1040,7 +1040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 654eb2207d0de00459c54995ec518376, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 654eb2207d0de00459c54995ec518376, type: 3}
       propertyPath: m_IsActive
@@ -1567,7 +1567,7 @@ Transform:
   m_GameObject: {fileID: 479084233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.23674, z: -1.5788001}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 349261396}
   m_Father: {fileID: 1480203705}
@@ -3214,8 +3214,15 @@ MonoBehaviour:
   filenameInputField: {fileID: 1267050343}
   fileName: 
   pendulumScript: {fileID: 0}
-  logInterval: 0.005
-  logDuration: 0.15
+  logInterval: 0.02
+  logDurationPendulum: 0.5
+  logDurationUser: 1
+  Lshoulder: {x: 0, y: 0, z: 0}
+  Rshoulder: {x: 0, y: 0, z: 0}
+  chest: {fileID: 1447322931}
+  lshould: {fileID: 479084233}
+  rshould: {fileID: 1701949226}
+  head: {fileID: 1457003146}
 --- !u!114 &982377791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5415,7 +5422,7 @@ Transform:
   m_GameObject: {fileID: 1447322931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.23674, z: -1.5788001}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1042580771}
   m_Father: {fileID: 1480203705}
@@ -5463,7 +5470,7 @@ Transform:
   m_GameObject: {fileID: 1457003146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.23674, z: -1.5788001}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 2079371991}
   m_Father: {fileID: 1480203705}
@@ -6261,7 +6268,7 @@ Transform:
   m_GameObject: {fileID: 1701949226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.23674, z: -1.5788001}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1427038411}
   m_Father: {fileID: 1480203705}
