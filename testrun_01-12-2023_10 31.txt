@@ -1,0 +1,5 @@
+Data Log for Virtual Clinic for 01-12-2023 -- 10:31 AM
+Swing Level: 5
+Haptic Feedback Level: 4
+Filename: testrun
+--------------------------------------------------------
