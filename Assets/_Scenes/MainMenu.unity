@@ -2021,7 +2021,6 @@ GameObject:
   - component: {fileID: 720715275}
   - component: {fileID: 720715274}
   - component: {fileID: 720715273}
-  - component: {fileID: 720715272}
   - component: {fileID: 720715271}
   m_Layer: 0
   m_Name: BottomHandle
@@ -2144,18 +2143,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &720715272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720715269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c13d57fd1642245d99154049b1c16e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &720715273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6775,7 +6762,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1819824143}
-  - component: {fileID: 1819824144}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -6809,18 +6795,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1819824144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819824142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1895a19a99ce93b4fbd389f9e4951d64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1829041987
 GameObject:
   m_ObjectHideFlags: 0
