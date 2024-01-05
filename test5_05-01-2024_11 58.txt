@@ -1,0 +1,33 @@
+Data Log for Virtual Clinic for 05-01-2024 -- 11:58 PM
+Swing Level: 3
+Haptic Feedback Level: 3
+Filename: test5
+--------------------------------------------------------
+ Run # 1
+-------------------------------------------------------- 
+ Pendulum Position:
+Time:    0.000	XRotation:     44.300
+Time:    0.020	XRotation:     41.531
+Time:    0.040	XRotation:     35.616
+Time:    0.060	XRotation:     27.800
+Time:    0.080	XRotation:     18.131
+Time:    0.100	XRotation:     14.501
+Time:    0.120	XRotation:     14.501
+Time:    0.140	XRotation:     14.501
+Time:    0.160	XRotation:     14.501
+Time:    0.180	XRotation:     14.501
+Time:    0.200	XRotation:     14.501
+Time:    0.220	XRotation:     14.501
+Time:    0.240	XRotation:     14.501
+Time:    0.260	XRotation:     14.501
+Time:    0.280	XRotation:     14.501
+Time:    0.300	XRotation:     14.501
+Time:    0.320	XRotation:     14.501
+Time:    0.340	XRotation:     14.501
+Time:    0.360	XRotation:     14.501
+Time:    0.380	XRotation:     14.501
+Time:    0.400	XRotation:     14.501
+Time:    0.420	XRotation:     14.501
+Time:    0.440	XRotation:     14.501
+Time:    0.460	XRotation:     14.501
+Time:    0.480	XRotation:     14.501

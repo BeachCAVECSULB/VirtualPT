@@ -43,17 +43,17 @@ public class DataManager : MonoBehaviour
         }
 		else if (SceneManager.GetActiveScene().name=="Classroom")
         {
-			InitializeVRBody();
+			// InitializeVRBody();
             pendulumScript = GameObject.Find("BottomHandle").GetComponent<PendulumMovingScript>();
             pendulumScript.SetWindupAngle(swingLevel);
 			// lshould = GameObject.Find("VRManager/LShoulder");
 			// chest = GameObject.Find("VRManager/Chest");
 			// head = GameObject.Find("VRManager/Head");
 			// rshould = GameObject.Find("VRManager/RShoulder");
-			lshould = GameObject.Find("LShoulder");
-			chest = GameObject.Find("Chest");
-			head = GameObject.Find("Head");
-			rshould = GameObject.Find("RShoulder");
+			lshould = GameObject.Find("UserBody/LShoulderRep");
+			chest = GameObject.Find("UserBody/ChestRep");
+			head = GameObject.Find("UserBody/HeadRep");
+			rshould = GameObject.Find("UserBody/RShoulderRep");
         }
 	}
 

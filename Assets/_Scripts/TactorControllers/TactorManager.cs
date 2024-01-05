@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
-using UnityEditor;
 using UnityEngine;
 using System.Linq;
 
@@ -74,7 +73,7 @@ public class TactorManager : MonoBehaviour
         {
             TactorData td = new TactorData
             {
-                tactorIndex = i + 1, // Assuming indices start from 1
+                tactorIndex = i, // Assuming indices start from 0
                 // Set other default values as needed
             };
 
@@ -82,13 +81,19 @@ public class TactorManager : MonoBehaviour
         }
     }
 
+    public void PrintTactorControllerData()
+    {
+
+    }
+
+    //prints tactor data
     public void PrintAllTactorData()
     {
         TactorLogger.Debug($"Printing Tactor Data:");
         for (int i = 0; i < tactorCount; i++)
         {
             TactorData td = tactorDatas[i];
-            TactorLogger.Debug($"Tactor {i + 1} Data:");
+            TactorLogger.Debug($"Tactor {i} Data:");
             TactorLogger.Debug($"  Index: {td.tactorIndex}");
             TactorLogger.Debug($"  Frequency: {td.frequency}");
             TactorLogger.Debug($"  Gain: {td.gain}");
@@ -134,7 +139,7 @@ public class TactorManager : MonoBehaviour
     // takes in a Tactor index from a TactorData and fires that Tactor
     public void FireTactor(int tacIndex)
     {
-        tc.FireTactor(tacIndex+1, tactorDatas[0].durationInMs);
+        tc.FireTactor(tacIndex, tactorDatas[0].durationInMs);
         recentlyFired[tacIndex] = 1;
         TactorLogger.Debug($"TAS.FireTactor({tacIndex},{tactorDatas[0].durationInMs});");
         TactorLogger.Debug($"TAS Recents: {recentlyFired.ToString()}");
@@ -153,7 +158,7 @@ public class TactorManager : MonoBehaviour
     }
 
     // coroutine to fire all tactors at once
-    private IEnumerator FireAllOnce()
+    public IEnumerator FireAllOnce()
     {
         foreach (var td in tactorDatas)
         {
@@ -163,5 +168,9 @@ public class TactorManager : MonoBehaviour
         }
     }
 
-    
+    //test tactors
+    public void TestTactors()
+    {
+        StartCoroutine(FireAllOnce());
+    }
 }
