@@ -62,6 +62,26 @@ public class TactorManager : MonoBehaviour
             TactorLogger.Debug("TAS: Fire Tactors In Sequence");
             StartCoroutine(FireInSequence());
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            TactorLogger.Debug("TAS: Discover Tactor Controller, Attempt to Connect, and test fire ");
+            StartCoroutine(AutoSetup());
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            TactorLogger.Debug("TAS: Discovering Tactor Controllers");
+            StartCoroutine(Discover());
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            TactorLogger.Debug("TAS: Discovering Tactor Controllers and Attempt to Connect to First Controller");
+            var deviceName = tc.GetDiscoveredNames()[0];
+            var deviceType = tc.GetDiscoveredTypes()[0];
+            TactorLogger.Debug("TAS: Device Name:");
+            TactorLogger.Debug(deviceName);
+            tc.Connect(deviceName, deviceType);
+        }
+
     }
 
     // Sets default values for TactorData instances and populate the list

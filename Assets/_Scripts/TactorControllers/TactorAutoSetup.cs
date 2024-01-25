@@ -106,5 +106,4 @@ public class TactorAutoSetup : MonoBehaviour
         //TactorLogger.Debug($"TAS recents :{recentlyFired},{temp});");
         return temp;
     }
-
 }
