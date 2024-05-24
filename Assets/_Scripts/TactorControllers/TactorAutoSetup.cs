@@ -64,7 +64,7 @@ public class TactorAutoSetup : MonoBehaviour
         StartCoroutine(FireInSequence());
     }
 
-    private IEnumerator FireInSequence()
+    public IEnumerator FireInSequence()
     {
         for (var i = 0; i < tactorCount; i++)
         {

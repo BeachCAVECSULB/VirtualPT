@@ -594,7 +594,6 @@ GameObject:
   - component: {fileID: 213399420}
   - component: {fileID: 213399423}
   - component: {fileID: 213399424}
-  - component: {fileID: 213399426}
   - component: {fileID: 213399425}
   - component: {fileID: 213399422}
   m_Layer: 0
@@ -677,13 +676,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 213399418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40eb3a10a8fcfbb4d87850c48b380067, type: 3}
+  m_Script: {fileID: 11500000, guid: 3645da9aadb85834599b7b9a01ffc872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumRotationSpeed: 0.3
-  rotationSpeed: 0.3
-  startingAngle: 20
-  windupAngle: 60
+  minimumRotationSpeed: 0.5
+  rotationSpeed: 0
+  startingAngle: 0
+  windupAngle: 0
   pendulum: {fileID: 1813140005}
   dataManagerScript: {fileID: 0}
 --- !u!54 &213399423
@@ -833,19 +832,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &213399426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213399418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b15e0ad80cb24f0a88b44b5b31cfc3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thudSound: {fileID: 213399425}
 --- !u!1 &270192253
 GameObject:
   m_ObjectHideFlags: 0
