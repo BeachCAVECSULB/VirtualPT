@@ -1,0 +1,764 @@
+[ ] 2024-09-16--20-47-36
+[ ] Changed LogLevel to 2.
+[ ] PATH = 'C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\VR Juggler 2.2.1\lib;C:\Program Files\Git\cmd;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git LFS;C:\Program Files (x86)\bin;C:\Program Files (x86)\bin64;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WorldViz\Vizard 5 (64-bit)\Tools;C:\Users\017890312\AppData\Local\Programs\Python\Python39;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MiddleVR\bin;C:\Program Files (x86)\MiddleVR\bin64;C:\Program Files\VisualSVN Server\bin;C:\Program Files\dotnet\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\CMake\bin;C:\Users\demo\AppData\Local\GitHubDesktop\bin;C:\Users\demo\AppData\Local\Microsoft\WindowsApps;C:\Users\demo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\EaseUS\Todo Backup\bin\x64\'.
+[>] Initializing MiddleVR Build 1.7.3.0 (Victoria) [ddaf20cd4-20191220104252].
+[ ] Executable path: 'C:\VirtualPT\VirtualPT\BuildsFolder\Build.exe'.
+[ ] MiddleVR library path: 'C:\Program Files (x86)\MiddleVR\bin64\MiddleVR.dll'.
+[ ] Working directory: 'C:\VirtualPT\VirtualPT\BuildsFolder'.
+[ ] Temp folder: 'C:\Users\demo\AppData\Local\Temp\MiddleVR'.
+[ ] System description:
+
+Computer name: 'MAE-ET21-CAVE'.
+User name: 'demo'.
+System Directory: 'C:\WINDOWS\system32'.
+Windows Directory: 'C:\WINDOWS'.
+Using Windows version 10.0 (19045).
+Nvidia drivers: 45239.
+Nvidia drivers VSync setting: application settings.
+Number of detected logical processors: 48.
+
+[+] Changing log file to 'C:\Users\demo\AppData\Local\Temp\MiddleVR\MiddleVR_UnityPlayer_Log.txt'.
+[ ] 'MiddleVR_Unity3D' version '1.7.3.0'.
+[>] Command line arguments to apply:
+[ ]   [0]: 'Build.exe'.
+[ ]   [1]: '--config'.
+[ ]   [2]: 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+[ ]   [3]: '-popupwindow'.
+[ ]   [4]: '-force-d3d11'.
+[ ]   [5]: '--mvr-window-geometry=1920x1200+1920+0'.
+[<] End of command line arguments.
+[ ] LM-X license Logs path set: 'LMX_EXTENDEDLOG=C:\Users\demo\AppData\Local\Temp\MiddleVR\MiddleVR_License_Log.txt'.
+[ ] Initialized LM-X license system. 
+[+] Signature OK for MiddleVR Academic edition (1.7.3.0). Licensee: Com - Visbox
+[ ] ** Export edition switching to MiddleVR Academic **
+[#] Unable to checkout license, feature 'MVR-Pro-Player-Unity': LM-X Error: (Internal: 106 Feature: MVR-Pro-Unity-Player)
+
+(Err: 9) Feature not found
+
+For further information go to http://www.x-formation.com
+
+[ ] ** Runtime edition switching to MiddleVR Academic**
+[ ] License OK.
+[+] Successful checkout of a license.
+[ ] The license 'MVR-Acad-Unity-Player' details are as follows: 
+	License product edition: 3
+	Max viewports number: Unlimited, Viewports max size: Unlimited x Unlimited
+	WebView max size: Unlimited x Unlimited
+	Maximum cluster nodes: 0
+	Maximum network clients: 0
+	Limited devices: No
+	Maximum VRPN trackers: Unlimited
+	Active stereo: yes
+	Haptic: no
+	Vioso: no
+[ ] Unity version 2019.4.8f1 - Pro.
+[ ] Built with MiddleVR 'Academic' edition.
+[ ] Default config file is: 'C:/Users/demo/Desktop/visbox/config/MiddleVR/Desktop.vrx'.
+[ ] Overriding config file with: 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+[ ] Unity Loading Config: 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+[ ] Showing splashscreen because license is not Pro or HMD.
+[ ] Showing splash screen.
+[>] Loading config file: 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+[ ] Changed LogLevel to 5.
+*2.813 [Frame:0] [+] Set Log folder to Simulation folder.
+ 2.813 [Frame:0] [ ] Log folder 'C:\VirtualPT\VirtualPT\BuildsFolder\MiddleVRLogs' already exists
+ 2.813 [Frame:0] [+] Changing log file to 'C:\VirtualPT\VirtualPT\BuildsFolder\MiddleVRLogs\MiddleVR_UnityPlayer_Log.txt'.
+ 2.814 [Frame:0] [+] Enabling simple crash handler.
+ 2.814 [Frame:0] [ ] Configuration version: 1.7.3.0
+ 2.818 [Frame:0] [ ] (Thread 10a2c) Creation of Plugin 'DirectInput'.
+ 2.818 [Frame:0] [ ] (Thread 10a2c) Creation of Object 'DirectInput Driver'.
+ 2.887 [Frame:0] [ ] Available joysticks: 
+ 2.888 [Frame:0] [ ] - Logitech Extreme 3D Pro USB
+ 2.890 [Frame:0] [+] Added Keyboard!
+ 2.890 [Frame:0] [ ] (Thread 10a2c) Creation of Keyboard 'Keyboard'.
+ 2.890 [Frame:0] [ ] (Thread 10a2c) Creation of Buttons 'Keyboard.Keys'.
+ 2.898 [Frame:0] [ ] Found One Unity window handle: 0000000000E40A5C, UnityWndClass.
+ 2.923 [Frame:0] [+] Added Mouse!
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Mouse 'Mouse'.
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Buttons 'Mouse.Buttons'.
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Axis 'Mouse.Axis'.
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Joystick 'Logitech Extreme 3D Pro USB'.
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Buttons 'Logitech Extreme 3D Pro USB.Buttons'.
+ 2.923 [Frame:0] [ ] (Thread 10a2c) Creation of Axis 'Logitech Extreme 3D Pro USB.Axis'.
+ 2.923 [Frame:0] [+] Added Joystick 'Logitech Extreme 3D Pro USB' ( 6 axis )( 12 buttons )
+ 2.923 [Frame:0] [<] Finished loading of plugin 'drivers\vrDriverDirectInput.dll'
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Plugin 'A.R.T. DTrack'.
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Object 'A.R.T. DTrack Driver'.
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Axis 'ART.Flystick0.Axis0'.
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Buttons 'ART.Flystick0.Buttons0'.
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Tracker 'ART.Flystick0.Tracker0'.
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Tracker 'ART.BodyTracker0'.
+ 2.925 [Frame:0] [<] Finished loading of plugin 'drivers\vrDriverARTDTrack.dll'
+ 2.925 [Frame:0] [ ] (Thread 10a2c) Creation of Wand 'Wand0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Node3D 'Node3D0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Node3D 'Node3D0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Node3D 'Node3D0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Node3D 'Node3D0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Left'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Right'.
+ 2.926 [Frame:0] [~] Couldn't find object 'ScreenCenter' to set property 'Screen' of object 'CameraCenter' [CameraStereo].
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Left'.
+ 2.926 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Right'.
+ 2.926 [Frame:0] [~] Couldn't find object 'ScreenFloor' to set property 'Screen' of object 'CameraFloor' [CameraStereo].
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Left'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Right'.
+ 2.927 [Frame:0] [~] Couldn't find object 'ScreenLeft' to set property 'Screen' of object 'CameraLeft' [CameraStereo].
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Left'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Camera 'Camera0.Right'.
+ 2.927 [Frame:0] [~] Couldn't find object 'ScreenRight' to set property 'Screen' of object 'CameraRight' [CameraStereo].
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Screen 'Screen0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Screen 'Screen0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Screen 'Screen0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Screen 'Screen0'.
+ 2.927 [Frame:0] [ ] (Thread 10a2c) Creation of Viewport 'Viewport0'.
+ 2.928 [Frame:0] [ ] (Thread 10a2c) Creation of Viewport 'Viewport0'.
+ 2.928 [Frame:0] [ ] (Thread 10a2c) Creation of Viewport 'Viewport0'.
+ 2.928 [Frame:0] [ ] (Thread 10a2c) Creation of Viewport 'Viewport0'.
+ 2.928 [Frame:0] [<] Successfully finished reading 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+ 2.928 [Frame:0] [ ] _TryToResolveProperties
+ 2.928 [Frame:0] [+] Finally found object 'ScreenRight' to set property 'Screen' of object 'CameraRight' [CameraStereo].
+ 2.928 [Frame:0] [+] Finally found object 'ScreenCenter' to set property 'Screen' of object 'CameraCenter' [CameraStereo].
+ 2.928 [Frame:0] [+] Finally found object 'ScreenFloor' to set property 'Screen' of object 'CameraFloor' [CameraStereo].
+ 2.928 [Frame:0] [+] Finally found object 'ScreenLeft' to set property 'Screen' of object 'CameraLeft' [CameraStereo].
+ 2.928 [Frame:0] [ ] DisplayManager::_PostLoadConfig
+ 2.928 [Frame:0] [ ] _ParseViewports
+ 2.928 [Frame:0] [ ] Detected OpenGL QuadBuffer viewport.
+ 2.928 [Frame:0] [ ] Is the multi-GPU option enabled? Yes.
+ 2.929 [Frame:0] [ ] (Thread 10a2c) Creation of OpenGLWindow 'MiddleVR_OpenGLWindow'.
+ 2.929 [Frame:0] [ ] CreateGLWindow.
+ 2.929 [Frame:0] [ ] Creating OpenGL window without borders.
+ 2.929 [Frame:0] [ ] OpenGLWindow: Window will be always on top.
+ 2.934 [Frame:0] [ ] Trying to activate OpenGL quad bufferring.
+*3.047 [Frame:0] [+] Display may be stereo capable.
+ 3.090 [Frame:0] [ ] MakeCurrent: 41.5485 ms.
+ 3.090 [Frame:0] [+] Created an OpenGL context.
+ 3.091 [Frame:0] [>] The multi-GPU option is enabled, creating a suitable OpenGL context.
+ 3.091 [Frame:0] [+] NVGPUAffinity extension loaded.
+ 3.091 [Frame:0] [ ] Found a Nvidia GPU handle for the display '\\.\DISPLAY5' ( NVIDIA Quadro P6000 ) [1], at (l:1920, t:0, r:3840, b:4800).
+ 3.096 [Frame:0] [ ] Trying to activate OpenGL quad bufferring.
+ 3.117 [Frame:0] [+] Created a GPU affinity context.
+ 3.117 [Frame:0] [<] The multi-GPU option is enabled, finished to create a suitable OpenGL context.
+ 3.130 [Frame:0] [+] Created OpenGL window.
+ 3.131 [Frame:0] [ ] OpenGL: NVIDIA Corporation, Quadro P6000/PCIe/SSE2, 4.6.0 NVIDIA 452.39.
+ 3.137 [Frame:0] [ ] VSync: Disabling...
+ 3.140 [Frame:0] [ ] ...: VSync successfully changed.
+ 3.140 [Frame:0] [ ] Checking if needs to set semaphores...
+ 3.140 [Frame:0] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 3.140 [Frame:0] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 3.140 [Frame:0] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 3.140 [Frame:0] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 3.140 [Frame:0] [ ] ... Yes.
+ 3.140 [Frame:0] [ ] GetProxyModule: Trying to load: 'C:\VirtualPT\VirtualPT\BuildsFolder\d3d11.dll'.
+ 3.140 [Frame:0] [+] GetProxyModule: Successfully loaded: 'C:\VirtualPT\VirtualPT\BuildsFolder\d3d11.dll'.
+ 3.140 [Frame:0] [>] Checking the value of retro-compatibility operations...
+ 3.141 [Frame:0] [<] End checking for retro-compatibility operations.
+ 3.141 [Frame:0] [ ] ClusterManager::_PostLoadConfig
+ 3.141 [Frame:0] 
+=== System dump ===
+
+== Available Displays ==
+
+- Display '\\.\DISPLAY1' ( NVIDIA Quadro P2000 ): 1920x1200 (0+0) 32 bits @ 59 hz. Primary screen.
+- Display '\\.\DISPLAY2' ( NVIDIA Quadro P2000 ): 1920x1080 (3840+0) 32 bits @ 60 hz.
+- Display '\\.\DISPLAY5' ( NVIDIA Quadro P6000 ): 1920x4800 (1920+0) 32 bits @ 120 hz.
+
+== Window geometry: 1920x4800+1920+0, windowed, no borders, show mouse cursor, VSync OFF.
+
+== Viewports ==
+
+- Viewport 'Center': 1920x1200+1920+0, 'CameraCenter'. Stereo ON, Quadbuffer.
+- Viewport 'Floor': 1920x1200+1920+1200, 'CameraFloor'. Stereo ON, Quadbuffer.
+- Viewport 'Left': 1289x1200+2551+2400, 'CameraLeft'. Stereo ON, Quadbuffer.
+- Viewport 'Right': 1289x1200+1920+3600, 'CameraRight'. Stereo ON, Quadbuffer.
+
+== Nodes ==
+
++ 'None' ['Node3D']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+  + 'VRSystemCenterNode' ['Node3D']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+    + 'CenterNode' ['Node3D']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+      + 'HandNode' ['Node3D']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. Tracker: 'ART.Flystick0.Tracker0'.
+      + 'HeadNode' ['Node3D']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. Tracker: 'ART.BodyTracker0'.
+        + 'CameraCenter' ['CameraStereo']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+          + 'CameraCenter.Left' ['Camera']: Loc: -0.0325,0,0. Y: -0, P: 0, R: -0, Virt-W: -0.0325,0,0. Y: -0, P: 0, R: -0. No tracker.
+          + 'CameraCenter.Right' ['Camera']: Loc: 0.0325,0,0. Y: -0, P: 0, R: -0, Virt-W: 0.0325,0,0. Y: -0, P: 0, R: -0. No tracker.
+        + 'CameraFloor' ['CameraStereo']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+          + 'CameraFloor.Left' ['Camera']: Loc: -0.0325,0,0. Y: 180, P: -89.9802, R: 180, Virt-W: -0.0325,0,0. Y: 180, P: -89.9802, R: 180. No tracker.
+          + 'CameraFloor.Right' ['Camera']: Loc: 0.0325,0,0. Y: 180, P: -89.9802, R: 180, Virt-W: 0.0325,0,0. Y: 180, P: -89.9802, R: 180. No tracker.
+        + 'CameraLeft' ['CameraStereo']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+          + 'CameraLeft.Left' ['Camera']: Loc: -0.0325,0,0. Y: 90, P: 0, R: -0, Virt-W: -0.0325,0,0. Y: 90, P: 0, R: -0. No tracker.
+          + 'CameraLeft.Right' ['Camera']: Loc: 0.0325,0,0. Y: 90, P: 0, R: -0, Virt-W: 0.0325,0,0. Y: 90, P: 0, R: -0. No tracker.
+        + 'CameraRight' ['CameraStereo']: Loc: 0,0,0. Y: -0, P: 0, R: -0, Virt-W: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+          + 'CameraRight.Left' ['Camera']: Loc: -0.0325,0,0. Y: -90, P: 0, R: 0, Virt-W: -0.0325,0,0. Y: -90, P: 0, R: 0. No tracker.
+          + 'CameraRight.Right' ['Camera']: Loc: 0.0325,0,0. Y: -90, P: 0, R: 0, Virt-W: 0.0325,0,0. Y: -90, P: 0, R: 0. No tracker.
+      + 'ScreenCenter' ['Screen']: Loc: 0,1.11125,1.11125. Y: -0, P: 0, R: -0, Virt-W: 0,1.11125,1.11125. Y: -0, P: 0, R: -0. No tracker.
+      + 'ScreenFloor' ['Screen']: Loc: 0,0,0. Y: 180, P: -89.9802, R: 180, Virt-W: 0,0,0. Y: 180, P: -89.9802, R: 180. No tracker.
+      + 'ScreenLeft' ['Screen']: Loc: -1.778,-0.08255,1.11125. Y: 90.0001, P: 0, R: -0, Virt-W: -1.778,-0.08255,1.11125. Y: 90.0001, P: 0, R: -0. No tracker.
+      + 'ScreenRight' ['Screen']: Loc: 1.778,-0.08255,1.11125. Y: -90.0001, P: 0, R: 0, Virt-W: 1.778,-0.08255,1.11125. Y: -90.0001, P: 0, R: 0. No tracker.
+
+
+== Cameras ==
+
+- CameraCenter: Stereo Camera. Aspect ratio: 1.6.
+- CameraCenter.Left: Aspect ratio: 1.6.
+- CameraCenter.Right: Aspect ratio: 1.6.
+- CameraFloor: Stereo Camera. Aspect ratio: 1.6.
+- CameraFloor.Left: Aspect ratio: 1.6.
+- CameraFloor.Right: Aspect ratio: 1.6.
+- CameraLeft: Stereo Camera. Aspect ratio: 1.07429.
+- CameraLeft.Left: Aspect ratio: 1.07429.
+- CameraLeft.Right: Aspect ratio: 1.07429.
+- CameraRight: Stereo Camera. Aspect ratio: 1.07429.
+- CameraRight.Left: Aspect ratio: 1.07429.
+- CameraRight.Right: Aspect ratio: 1.07429.
+
+== Device Manager ==
+
+ - Nb devices: 8
+  - Keyboard [ Keyboard ] from DirectInput Driver.
+  - Mouse [ Mouse ] from DirectInput Driver.
+  - Logitech Extreme 3D Pro USB [ Joystick ] from DirectInput Driver.
+  - ART.Flystick0.Axis0 [ Axis ] from A.R.T. DTrack Driver.
+  - ART.Flystick0.Buttons0 [ Buttons ] from A.R.T. DTrack Driver.
+  - ART.Flystick0.Tracker0 [ Tracker ] from A.R.T. DTrack Driver.
+  - ART.BodyTracker0 [ Tracker ] from A.R.T. DTrack Driver.
+  - Wand0 [ Wand ].
+
+ - Nb drivers: 2
+  - DirectInput Driver.
+  - A.R.T. DTrack Driver.
+
+== Wand: Wand0 == 
+
+ - Axis: ART.Flystick0.Axis0.
+ - Buttons: ART.Flystick0.Buttons0.
+
+== Scripts ==
+
+
+== Cluster: SoftSwapLock: ON. NVidiaSwapLock: OFF. ForceOpenGLConversion: OFF. DisableVSyncOnServer: ON. 
+
+
+=== End of System dump ===
+
+
+ 3.141 [Frame:0] [ ] Time to read configuration 0.33 s.
+ 3.141 [Frame:0] [+] MiddleVR: Config loaded successfully: 'C:\Users\demo\Desktop\visbox\config\MiddleVR\VisCube-M4-1920c-ART-MiddleVR_Drone_Map_Upgrades.vrx'.
+ 3.141 [Frame:0] [+] VR Manager Initialization OK!
+ 3.142 [Frame:0] [ ] MiddleVR::vrDisplayManager::RenameWindow.
+ 3.145 [Frame:0] [ ] Unity: Current quality level: 5
+ 3.145 [Frame:0] [ ] Unity: In this project's current quality level, VSync is: 0
+ 3.145 [Frame:0] [<] MiddleVR_Unity3D - End of VRInitialize.
+ 3.147 [Frame:0] [+] No watermark.
+ 3.149 [Frame:0] [ ] Dumping VRManager's options:
+ 3.149 [Frame:0] [ ] - Config File : C:/Users/demo/Desktop/visbox/config/MiddleVR/Desktop.vrx
+ 3.149 [Frame:0] [ ] - System Center Node : 
+ 3.149 [Frame:0] [ ] - Template Camera : Main Camera (UnityEngine.GameObject)
+ 3.149 [Frame:0] [ ] - Show Wand : False
+ 3.149 [Frame:0] [ ] - Show FPS  : True
+ 3.149 [Frame:0] [ ] - Disable Existing Cameras : False
+ 3.149 [Frame:0] [ ] - Grab Existing Nodes : False
+ 3.149 [Frame:0] [ ] - Debug Nodes : False
+ 3.149 [Frame:0] [ ] - Debug Screens : False
+ 3.149 [Frame:0] [ ] - Quit On Esc : True
+ 3.149 [Frame:0] [ ] - Don't Change Window Geometry : False
+ 3.149 [Frame:0] [ ] - Simple Cluster : True
+ 3.149 [Frame:0] [ ] - Simple Cluster Particles : True
+ 3.149 [Frame:0] [ ] - Force Quality : False
+ 3.149 [Frame:0] [ ] - Force QualityIndex : 3
+ 3.149 [Frame:0] [ ] - Anti-Aliasing Level : 0
+ 3.149 [Frame:0] [ ] - Custom License : False
+ 3.149 [Frame:0] [ ] - Custom License Name : 
+ 3.154 [Frame:0] [>] Creating 21 nodes.
+ 3.156 [Frame:0] [+] Creating 'VRSystemCenterNode' [Node3D]
+ 3.157 [Frame:0] [+] Creating 'CenterNode' [Node3D]
+ 3.157 [Frame:0] [+] Creating 'HandNode' [Node3D]
+ 3.157 [Frame:0] [+] Creating 'HeadNode' [Node3D]
+ 3.158 [Frame:0] [+] Creating 'CameraCenter' [CameraStereo]
+ 3.158 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.159 [Frame:0] [+] Creating 'CameraCenter.Left' [Camera]
+ 3.164 [Frame:0] [ ] Camera 'CameraCenter.Left' rendering path: Forward.
+ 3.165 [Frame:0] [ ] Cluster. Disabling: 'CameraCenter.Left'.
+ 3.165 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.165 [Frame:0] [+] Creating 'CameraCenter.Right' [Camera]
+ 3.165 [Frame:0] [ ] Camera 'CameraCenter.Right' rendering path: Forward.
+ 3.165 [Frame:0] [ ] Cluster. Disabling: 'CameraCenter.Right'.
+ 3.165 [Frame:0] [+] Creating 'CameraFloor' [CameraStereo]
+ 3.165 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.165 [Frame:0] [+] Creating 'CameraFloor.Left' [Camera]
+ 3.165 [Frame:0] [ ] Camera 'CameraFloor.Left' rendering path: Forward.
+ 3.166 [Frame:0] [ ] Cluster. Disabling: 'CameraFloor.Left'.
+ 3.166 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.166 [Frame:0] [+] Creating 'CameraFloor.Right' [Camera]
+ 3.166 [Frame:0] [ ] Camera 'CameraFloor.Right' rendering path: Forward.
+ 3.166 [Frame:0] [ ] Cluster. Disabling: 'CameraFloor.Right'.
+ 3.166 [Frame:0] [+] Creating 'CameraLeft' [CameraStereo]
+ 3.166 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.166 [Frame:0] [+] Creating 'CameraLeft.Left' [Camera]
+ 3.166 [Frame:0] [ ] Camera 'CameraLeft.Left' rendering path: Forward.
+ 3.166 [Frame:0] [ ] Cluster. Disabling: 'CameraLeft.Left'.
+ 3.166 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.166 [Frame:0] [+] Creating 'CameraLeft.Right' [Camera]
+ 3.166 [Frame:0] [ ] Camera 'CameraLeft.Right' rendering path: Forward.
+ 3.166 [Frame:0] [ ] Cluster. Disabling: 'CameraLeft.Right'.
+ 3.166 [Frame:0] [+] Creating 'CameraRight' [CameraStereo]
+ 3.166 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.166 [Frame:0] [+] Creating 'CameraRight.Left' [Camera]
+ 3.166 [Frame:0] [ ] Camera 'CameraRight.Left' rendering path: Forward.
+ 3.166 [Frame:0] [ ] Cluster. Disabling: 'CameraRight.Left'.
+ 3.166 [Frame:0] [ ] Using template camera: Main Camera'.
+ 3.166 [Frame:0] [+] Creating 'CameraRight.Right' [Camera]
+ 3.167 [Frame:0] [ ] Camera 'CameraRight.Right' rendering path: Forward.
+ 3.167 [Frame:0] [ ] Cluster. Disabling: 'CameraRight.Right'.
+ 3.167 [Frame:0] [+] Creating 'ScreenCenter' [Screen]
+ 3.167 [Frame:0] [+] Creating 'ScreenFloor' [Screen]
+ 3.167 [Frame:0] [+] Creating 'ScreenLeft' [Screen]
+ 3.167 [Frame:0] [+] Creating 'ScreenRight' [Screen]
+ 3.168 [Frame:0] [ ] Refresh Unity nodes references. 21 nodes in configuration to get.
+ 3.168 [Frame:0] [ ] Added node 'None'.
+ 3.170 [Frame:0] [ ] Created mapping for MVR node 'VRSystemCenterNode'.
+ 3.173 [Frame:0] [ ] Added node 'VRSystemCenterNode'.
+ 3.173 [Frame:0] [ ] Created mapping for MVR node 'CenterNode'.
+ 3.174 [Frame:0] [ ] Added node 'CenterNode'.
+ 3.174 [Frame:0] [ ] Created mapping for MVR node 'HandNode'.
+ 3.174 [Frame:0] [ ] Added node 'HandNode'.
+ 3.174 [Frame:0] [ ] Created mapping for MVR node 'HeadNode'.
+ 3.174 [Frame:0] [ ] Added node 'HeadNode'.
+ 3.174 [Frame:0] [ ] Created mapping for MVR node 'CameraCenter'.
+ 3.174 [Frame:0] [ ] Added node 'CameraCenter'.
+ 3.174 [Frame:0] [ ] Created mapping for MVR node 'CameraCenter.Left'.
+ 3.174 [Frame:0] [ ] Added node 'CameraCenter.Left'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraCenter.Right'.
+ 3.175 [Frame:0] [ ] Added node 'CameraCenter.Right'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraFloor'.
+ 3.175 [Frame:0] [ ] Added node 'CameraFloor'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraFloor.Left'.
+ 3.175 [Frame:0] [ ] Added node 'CameraFloor.Left'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraFloor.Right'.
+ 3.175 [Frame:0] [ ] Added node 'CameraFloor.Right'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraLeft'.
+ 3.175 [Frame:0] [ ] Added node 'CameraLeft'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraLeft.Left'.
+ 3.175 [Frame:0] [ ] Added node 'CameraLeft.Left'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraLeft.Right'.
+ 3.175 [Frame:0] [ ] Added node 'CameraLeft.Right'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraRight'.
+ 3.175 [Frame:0] [ ] Added node 'CameraRight'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraRight.Left'.
+ 3.175 [Frame:0] [ ] Added node 'CameraRight.Left'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'CameraRight.Right'.
+ 3.175 [Frame:0] [ ] Added node 'CameraRight.Right'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'ScreenCenter'.
+ 3.175 [Frame:0] [ ] Added node 'ScreenCenter'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'ScreenFloor'.
+ 3.175 [Frame:0] [ ] Added node 'ScreenFloor'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'ScreenLeft'.
+ 3.175 [Frame:0] [ ] Added node 'ScreenLeft'.
+ 3.175 [Frame:0] [ ] Created mapping for MVR node 'ScreenRight'.
+ 3.175 [Frame:0] [ ] Added node 'ScreenRight'.
+ 3.175 [Frame:0] [>] Starting to update Unity nodes from MiddleVR nodes.
+ 3.178 [Frame:0] [<] Finished MiddleVR to Unity update.
+ 3.178 [Frame:0] [<] End of node creation.
+ 3.183 [Frame:0] [>] Starting to create viewports.
+ 3.184 [Frame:0] [ ] This stereo mode will create a new window, so hiding this one.
+ 3.184 [Frame:0] [ ] Hiding window.
+ 3.184 [Frame:0] [ ] Evaluating viewport 'Center'.
+ 3.185 [Frame:0] [ ] 'Center' is a stereo viewport.
+ 3.187 [Frame:0] [ ] Using camera's own aspect ratio of 1.6.
+ 3.187 [Frame:0] [ ] Disabling CameraStereo, enabling left and right cameras.
+ 3.187 [Frame:0] [ ] OpenGL active stereoscopy mode detected.
+ 3.188 [Frame:0] [ ] Entered in SetViewport...
+ 3.188 [Frame:0] [ ] Setting-up viewport for camera 'CameraCenter.Left' 1920x1200 ( 1920+0 ).
+ 3.188 [Frame:0] [ ] Camera uses its aspect ratio: 1.6.
+ 3.189 [Frame:0] [ ] Entered in SetViewport...
+ 3.189 [Frame:0] [ ] Setting-up viewport for camera 'CameraCenter.Right' 1920x1200 ( 1920+0 ).
+ 3.189 [Frame:0] [ ] Camera uses its aspect ratio: 1.6.
+ 3.190 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraCenter.Left'.
+ 3.190 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.190 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.200 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.200 [Frame:0] [+] Extracted render target 'CameraCenter.Left': 0x000001B9CEC8B838.
+ 3.200 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraCenter.Left'.
+ 3.206 [Frame:0] [ ] Camera CB present.
+ 3.206 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraCenter.Right'.
+ 3.206 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.206 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.212 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.212 [Frame:0] [+] Extracted render target 'CameraCenter.Right': 0x000001B9CEC8A878.
+ 3.212 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraCenter.Right'.
+ 3.213 [Frame:0] [ ] Camera CB present.
+ 3.213 [Frame:0] [ ] Evaluating viewport 'Floor'.
+ 3.213 [Frame:0] [ ] 'Floor' is a stereo viewport.
+ 3.213 [Frame:0] [ ] Using camera's own aspect ratio of 1.6.
+ 3.213 [Frame:0] [ ] Disabling CameraStereo, enabling left and right cameras.
+ 3.213 [Frame:0] [ ] OpenGL active stereoscopy mode detected.
+ 3.213 [Frame:0] [ ] Entered in SetViewport...
+ 3.213 [Frame:0] [ ] Setting-up viewport for camera 'CameraFloor.Left' 1920x1200 ( 1920+1200 ).
+ 3.213 [Frame:0] [ ] Camera uses its aspect ratio: 1.6.
+ 3.213 [Frame:0] [ ] Entered in SetViewport...
+ 3.213 [Frame:0] [ ] Setting-up viewport for camera 'CameraFloor.Right' 1920x1200 ( 1920+1200 ).
+ 3.213 [Frame:0] [ ] Camera uses its aspect ratio: 1.6.
+ 3.213 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraFloor.Left'.
+ 3.213 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.213 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.219 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.219 [Frame:0] [+] Extracted render target 'CameraFloor.Left': 0x000001B9D7E463B8.
+ 3.219 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraFloor.Left'.
+ 3.219 [Frame:0] [ ] Camera CB present.
+ 3.219 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraFloor.Right'.
+ 3.219 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.220 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.226 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.226 [Frame:0] [+] Extracted render target 'CameraFloor.Right': 0x000001B9D7E44C38.
+ 3.226 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraFloor.Right'.
+ 3.226 [Frame:0] [ ] Camera CB present.
+ 3.226 [Frame:0] [ ] Evaluating viewport 'Left'.
+ 3.226 [Frame:0] [ ] 'Left' is a stereo viewport.
+ 3.226 [Frame:0] [ ] Using camera's own aspect ratio of 1.074286.
+ 3.226 [Frame:0] [ ] Disabling CameraStereo, enabling left and right cameras.
+ 3.226 [Frame:0] [ ] OpenGL active stereoscopy mode detected.
+ 3.226 [Frame:0] [ ] Entered in SetViewport...
+ 3.226 [Frame:0] [ ] Setting-up viewport for camera 'CameraLeft.Left' 1289x1200 ( 2551+2400 ).
+ 3.226 [Frame:0] [ ] Camera uses its aspect ratio: 1.074286.
+ 3.226 [Frame:0] [ ] Entered in SetViewport...
+ 3.226 [Frame:0] [ ] Setting-up viewport for camera 'CameraLeft.Right' 1289x1200 ( 2551+2400 ).
+ 3.226 [Frame:0] [ ] Camera uses its aspect ratio: 1.074286.
+ 3.227 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraLeft.Left'.
+ 3.227 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.227 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.233 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.233 [Frame:0] [+] Extracted render target 'CameraLeft.Left': 0x000001B9D7E47DF8.
+ 3.233 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraLeft.Left'.
+ 3.233 [Frame:0] [ ] Camera CB present.
+ 3.233 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraLeft.Right'.
+ 3.233 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.233 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.239 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.239 [Frame:0] [+] Extracted render target 'CameraLeft.Right': 0x000001B9D7E46678.
+ 3.239 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraLeft.Right'.
+ 3.240 [Frame:0] [ ] Camera CB present.
+ 3.240 [Frame:0] [ ] Evaluating viewport 'Right'.
+ 3.240 [Frame:0] [ ] 'Right' is a stereo viewport.
+ 3.240 [Frame:0] [ ] Using camera's own aspect ratio of 1.074286.
+ 3.240 [Frame:0] [ ] Disabling CameraStereo, enabling left and right cameras.
+ 3.240 [Frame:0] [ ] OpenGL active stereoscopy mode detected.
+ 3.240 [Frame:0] [ ] Entered in SetViewport...
+ 3.240 [Frame:0] [ ] Setting-up viewport for camera 'CameraRight.Left' 1289x1200 ( 1920+3600 ).
+ 3.240 [Frame:0] [ ] Camera uses its aspect ratio: 1.074286.
+ 3.240 [Frame:0] [ ] Entered in SetViewport...
+ 3.240 [Frame:0] [ ] Setting-up viewport for camera 'CameraRight.Right' 1289x1200 ( 1920+3600 ).
+ 3.240 [Frame:0] [ ] Camera uses its aspect ratio: 1.074286.
+ 3.240 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraRight.Left'.
+ 3.240 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.240 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.246 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.246 [Frame:0] [+] Extracted render target 'CameraRight.Left': 0x000001B9D7E453F8.
+ 3.246 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraRight.Left'.
+ 3.247 [Frame:0] [ ] Camera CB present.
+ 3.247 [Frame:0] [>] Tracking of render texture creation (1920x4800) for the camera 'CameraRight.Right'.
+ 3.247 [Frame:0] [+] StartTrackingRenderTargets: found D3D Proxy DLL.
+ 3.247 [Frame:0] [+] StartTrackingRenderTargets: leaving.
+ 3.253 [Frame:0] [ ] StopTrackingRenderTargets: Thread ID: 10a2c.
+ 3.253 [Frame:0] [+] Extracted render target 'CameraRight.Right': 0x000001B9D7E468F8.
+ 3.253 [Frame:0] [<] End of tracking render texture creation (1920x4800) for the camera 'CameraRight.Right'.
+ 3.253 [Frame:0] [ ] Camera CB present.
+ 3.253 [Frame:0] [<] End of viewport creation.
+ 3.253 [Frame:0] [<] End of VR initialization script
+ 3.253 [Frame:0] [ ] VRInteractionManipulationHomer: enabled
+ 3.253 [Frame:0] [ ] VRInteractionManipulationRay: enabled
+ 3.254 [Frame:0] [ ] VRInteractionManipulationReturnObjects: enabled
+ 3.254 [Frame:0] [ ] VRInteractionNavigationElastic: enabled
+ 3.254 [Frame:0] [ ] VRInteractionNavigationGrabWorld: enabled
+ 3.254 [Frame:0] [ ] VRInteractionNavigationWandJoystick: enabled
+ 3.254 [Frame:0] [ ] VRInteractionVirtualHandGogo: enabled
+*3.794 [Frame:0] [>] VR Manager Start.
+ 3.799 [Frame:0] [ ] Unity: Disabling VSync.
+ 3.802 [Frame:0] [ ] (Thread 10a2c) Creation of Command 'VRManager.QuitApplicationCommand'.
+ 3.803 [Frame:0] [<] End of VR Manager Start.
+ 3.804 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'VRRaySelection'.
+ 3.805 [Frame:0] [ ] Activating interaction: 'VRRaySelection'.
+ 3.805 [Frame:0] [ ] Activating interaction 'VRRaySelection' [000001B9CEF48D90].
+ 3.807 [Frame:0] [ ] VRInteraction: Activating 'VRRaySelection'.
+ 3.808 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionManipulationHomer'.
+ 3.808 [Frame:0] [ ] Activating interaction: 'InteractionManipulationHomer'.
+ 3.808 [Frame:0] [ ] Activating interaction 'InteractionManipulationHomer' [000001B9CEF48710].
+ 3.808 [Frame:0] [ ] Activating interaction: 'InteractionManipulationHomer'.
+ 3.808 [Frame:0] [ ] VRInteraction: Activating 'InteractionManipulationHomer'.
+ 3.810 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionManipulationRay'.
+ 3.810 [Frame:0] [ ] Activating interaction: 'InteractionManipulationRay'.
+ 3.810 [Frame:0] [ ] Deactivating interaction: 'InteractionManipulationHomer'.
+ 3.810 [Frame:0] [ ] Deactivating interaction 'InteractionManipulationHomer' [000001B9CEF48710].
+ 3.811 [Frame:0] [ ] VRInteraction: Deactivating 'InteractionManipulationHomer'.
+ 3.811 [Frame:0] [ ] Activating interaction 'InteractionManipulationRay' [000001B9CEF487B0].
+ 3.811 [Frame:0] [ ] Activating interaction: 'InteractionManipulationRay'.
+ 3.811 [Frame:0] [ ] Deactivating interaction: 'InteractionManipulationHomer'.
+ 3.811 [Frame:0] [ ] VRInteraction: Activating 'InteractionManipulationRay'.
+ 3.812 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionNavigationElastic'.
+ 3.812 [Frame:0] [ ] Activating interaction: 'InteractionNavigationElastic'.
+ 3.812 [Frame:0] [ ] Activating interaction 'InteractionNavigationElastic' [000001B9CEF48B50].
+ 3.812 [Frame:0] [ ] Activating interaction: 'InteractionNavigationElastic'.
+ 3.812 [Frame:0] [ ] VRInteraction: Activating 'InteractionNavigationElastic'.
+ 3.814 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionNavigationGrabWorld'.
+ 3.814 [Frame:0] [ ] Activating interaction: 'InteractionNavigationGrabWorld'.
+ 3.814 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationElastic'.
+ 3.814 [Frame:0] [ ] Deactivating interaction 'InteractionNavigationElastic' [000001B9CEF48B50].
+ 3.815 [Frame:0] [ ] VRInteraction: Deactivating 'InteractionNavigationElastic'.
+ 3.815 [Frame:0] [ ] Activating interaction 'InteractionNavigationGrabWorld' [000001B9CEF48950].
+ 3.815 [Frame:0] [ ] Activating interaction: 'InteractionNavigationGrabWorld'.
+ 3.815 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationElastic'.
+ 3.815 [Frame:0] [ ] VRInteraction: Activating 'InteractionNavigationGrabWorld'.
+ 3.816 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionNavigationWandJoystick'.
+ 3.816 [Frame:0] [ ] Activating interaction: 'InteractionNavigationWandJoystick'.
+ 3.816 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationElastic'.
+ 3.816 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationGrabWorld'.
+ 3.816 [Frame:0] [ ] Deactivating interaction 'InteractionNavigationGrabWorld' [000001B9CEF48950].
+ 3.816 [Frame:0] [ ] VRInteraction: Deactivating 'InteractionNavigationGrabWorld'.
+ 3.816 [Frame:0] [ ] Activating interaction 'InteractionNavigationWandJoystick' [000001B9CEF48BB0].
+ 3.816 [Frame:0] [ ] Activating interaction: 'InteractionNavigationWandJoystick'.
+ 3.816 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationElastic'.
+ 3.816 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationGrabWorld'.
+ 3.816 [Frame:0] [ ] VRInteraction: Activating 'InteractionNavigationWandJoystick'.
+ 3.817 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionScreenProximityWarning'.
+ 3.818 [Frame:0] [ ] Activating interaction: 'InteractionScreenProximityWarning'.
+ 3.818 [Frame:0] [ ] Activating interaction 'InteractionScreenProximityWarning' [000001B9CEF48770].
+ 3.819 [Frame:0] [ ] (Thread 10a2c) Creation of Interaction 'InteractionVirtualHandGogo'.
+ 3.819 [Frame:0] [ ] Activating interaction: 'InteractionVirtualHandGogo'.
+ 3.820 [Frame:0] [ ] Activating interaction 'InteractionVirtualHandGogo' [000001B9CEF48930].
+ 3.820 [Frame:0] [ ] Activating interaction: 'InteractionVirtualHandGogo'.
+ 3.820 [Frame:0] [ ] VRInteraction: Activating 'InteractionVirtualHandGogo'.
+ 3.827 [Frame:0] [ ] Unity: StartCoroutine PostFrameUpdate
+ 3.839 [Frame:0] [ ] Activating interaction: 'InteractionNavigationWandJoystick'.
+ 3.839 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationElastic'.
+ 3.839 [Frame:0] [ ] Deactivating interaction: 'InteractionNavigationGrabWorld'.
+ 3.839 [Frame:0] [ ] Activating interaction: 'InteractionManipulationRay'.
+ 3.839 [Frame:0] [ ] Deactivating interaction: 'InteractionManipulationHomer'.
+ 3.840 [Frame:0] [ ] Deactivating interaction 'InteractionVirtualHandGogo' [000001B9CEF48930].
+ 3.840 [Frame:0] [ ] VRInteraction: Deactivating 'InteractionVirtualHandGogo'.
+ 3.840 [Frame:0] [>] Starting to update MiddleVR nodes from Unity nodes.
+ 3.841 [Frame:0] [<] Finished Unity to MiddleVR update.
+ 3.841 [Frame:0] [>] Unity Update - Start
+ 3.842 [Frame:0] 
+ 3.842 [Frame:0] [>] ** MiddleVR Update - Start. Frame 0, time: 3841.67 ms.
+ 3.842 [Frame:0] [>] DeviceManager::Update
+ 3.842 [Frame:0] [>] Updating driver'DirectInput Driver'.
+ 3.853 [Frame:0] [<] End of updating driver'DirectInput Driver'.
+ 3.853 [Frame:0] [>] Updating driver'A.R.T. DTrack Driver'.
+ 3.854 [Frame:0] [+] DTrack driver: listening on the local port '5000'.
+ 3.854 [Frame:0] [<] End of updating driver'A.R.T. DTrack Driver'.
+ 3.854 [Frame:0] [<] End of DeviceManager::Update
+ 3.854 [Frame:0] [>] ClusterManager::Update
+ 3.854 [Frame:0] [ ] ClusterManager::Update: 0.0008 ms.
+ 3.854 [Frame:0] [<] ClusterManager::End of Update
+ 3.854 [Frame:0] [>] InteractionManager::Update
+ 3.854 [Frame:0] [ ] Update: Interaction 'VRRaySelection' [000001B9CEF48D90].
+ 3.854 [Frame:0] [ ] Update: Interaction 'InteractionManipulationRay' [000001B9CEF487B0].
+ 3.854 [Frame:0] [ ] Update: Interaction 'InteractionNavigationWandJoystick' [000001B9CEF48BB0].
+ 3.854 [Frame:0] [ ] Update: Interaction 'InteractionScreenProximityWarning' [000001B9CEF48770].
+ 3.854 [Frame:0] [<] InteractionManager::End of Update
+ 3.854 [Frame:0] [>] DisplayManager::Update
+ 3.854 [Frame:0] [<] DisplayManager::End of Update
+ 3.854 [Frame:0] [ ] [ ] Update: 12.314 ms Devices: 12.077 ms. Physics: 0.001 ms. Cluster: 0.043 ms. Scripts: 0.000 ms. Interactions: 0.126 ms. Display: 0.064 ms.
+ 3.854 [Frame:0] [<] MiddleVR Update - End.
+ 3.856 [Frame:0] [>] Starting to update Unity nodes from MiddleVR nodes.
+ 3.856 [Frame:0] [<] Finished MiddleVR to Unity update.
+ 3.858 [Frame:0] [ ] Computing projection matrix for camera 'CameraCenter.Left', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraCenter.Right', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraFloor.Left', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraFloor.Right', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraLeft.Left', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraLeft.Right', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraRight.Left', enabled? 'True'.
+ 3.859 [Frame:0] [ ] Computing projection matrix for camera 'CameraRight.Right', enabled? 'True'.
+ 3.860 [Frame:0] [<] Unity Update - End
+ 3.869 [Frame:0] [X] VRNavigationCollision: MiddleVR navigation node is null.
+ 3.870 [Frame:0] [ ] VRHeadCollision: initialized
+ 3.870 [Frame:0] [+] AttachToNode: VRWand attached to : HandNode
+ 3.871 [Frame:0] [+] AttachToNode: LShoulder attached to : LShoulder
+ 3.871 [Frame:0] [X] AttachToNode: Failed to find Game object 'ChestNode'
+ 3.871 [Frame:0] [+] AttachToNode: Head attached to : HeadNode
+ 3.871 [Frame:0] [+] AttachToNode: RShoulder attached to : RShoulder
+ 3.871 [Frame:0] [>] Unity: VR EndFrame Update!
+ 3.871 [Frame:0] [>] ClusterManager::EndFrameUpdate
+ 3.871 [Frame:0] [ ] ClusterManager::EndFrameUpdate: 0.0007 ms.
+ 3.871 [Frame:0] [<] ClusterManager::End of EndFrameUpdate
+ 3.871 [Frame:0] [<] Unity: End of VR EndFrame Update!
+*3.996 [Frame:0] [>] Unity: Start of VR PostFrameUpdate.
+ 3.997 [Frame:0] [>] MiddleVR::vrKernel::_PostFrameUpdate
+ 3.997 [Frame:0] [>] DisplayManager::PostFrameUpdate
+ 3.997 [Frame:0] [<] DisplayManager::End of PostFrameUpdate: 0.0009 ms.
+ 3.997 [Frame:0] [ ] ClusterManager::PostFrameUpdate
+ 3.997 [Frame:0] [ ] ClusterManager::End of PostFrameUpdate : 0.0015 ms.
+ 3.997 [Frame:1] [<] End of MiddleVR::vrKernel::_PostFrameUpdate.
+ 3.997 [Frame:1] [<] Kernel::PostFrameUpdate End. Moving to frame: 1, Time: 0.0809 ms. *******
+ 3.997 [Frame:1] [>] Starting OpenGL update.
+ 3.997 [Frame:1] [<] Unity: End of VR PostFrameUpdate.
+ 3.997 [Frame:1] [ ] Update OpenGL window.
+ 4.015 [Frame:1] [>] Starting to update MiddleVR nodes from Unity nodes.
+ 4.015 [Frame:1] [<] Finished Unity to MiddleVR update.
+ 4.015 [Frame:1] [>] Unity Update - Start
+ 4.015 [Frame:1] [>] Set window geometry...
+ 4.015 [Frame:1] [ ] ... don't need because fullscreen or active stereo.
+ 4.015 [Frame:1] 
+ 4.015 [Frame:1] [>] ** MiddleVR Update - Start. Frame 1, time: 4015.38 ms.
+ 4.015 [Frame:1] [ ] [ ] . Total loop: 173.658 ms, outer loop: 18.521 ms. 
+
+ 4.015 [Frame:1] [>] DeviceManager::Update
+ 4.015 [Frame:1] [>] Updating driver'DirectInput Driver'.
+ 4.016 [Frame:1] [<] End of updating driver'DirectInput Driver'.
+ 4.016 [Frame:1] [>] Updating driver'A.R.T. DTrack Driver'.
+ 4.016 [Frame:1] [<] End of updating driver'A.R.T. DTrack Driver'.
+ 4.016 [Frame:1] [<] End of DeviceManager::Update
+ 4.016 [Frame:1] [>] ClusterManager::Update
+ 4.016 [Frame:1] [<] ClusterManager::End of Update
+ 4.016 [Frame:1] [>] InteractionManager::Update
+ 4.016 [Frame:1] [ ] Update: Interaction 'VRRaySelection' [000001B9CEF48D90].
+ 4.016 [Frame:1] [ ] Update: Interaction 'InteractionManipulationRay' [000001B9CEF487B0].
+ 4.016 [Frame:1] [ ] Update: Interaction 'InteractionNavigationWandJoystick' [000001B9CEF48BB0].
+ 4.016 [Frame:1] [ ] Update: Interaction 'InteractionScreenProximityWarning' [000001B9CEF48770].
+ 4.016 [Frame:1] [<] InteractionManager::End of Update
+ 4.016 [Frame:1] [>] DisplayManager::Update
+ 4.016 [Frame:1] [<] DisplayManager::End of Update
+ 4.016 [Frame:1] [ ] Frame: 1, FPS: 0.284458, Delta Time: 0.173658
+ 4.016 [Frame:1] [<] MiddleVR Update - End.
+ 4.016 [Frame:1] [ ] FPS: 0.284458
+ 4.016 [Frame:1] [>] Starting to update Unity nodes from MiddleVR nodes.
+ 4.016 [Frame:1] [<] Finished MiddleVR to Unity update.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraCenter.Left', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraCenter.Right', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraFloor.Left', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraFloor.Right', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraLeft.Left', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraLeft.Right', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraRight.Left', enabled? 'True'.
+ 4.016 [Frame:1] [ ] Computing projection matrix for camera 'CameraRight.Right', enabled? 'True'.
+ 4.016 [Frame:1] [<] Unity Update - End
+ 4.018 [Frame:1] [>] Unity: VR EndFrame Update!
+ 4.018 [Frame:1] [>] ClusterManager::EndFrameUpdate
+ 4.018 [Frame:1] [<] ClusterManager::End of EndFrameUpdate
+ 4.018 [Frame:1] [<] Unity: End of VR EndFrame Update!
+ 4.031 [Frame:1] [>] FinishNVSwapLockInit. NVidiaSwapLock: 0, nvswaplockLoaded: 0, g_nvswapbarrierBound: 0
+ 4.031 [Frame:1] [<] FinishNVSwapLockInit
+ 4.031 [Frame:1] [ ] Draw render targets.
+ 4.031 [Frame:1] [ ] Convert Render Targets
+ 4.031 [Frame:1] [>] Converting render textures.
+ 4.031 [Frame:1] [ ] DirectX11 Conversion setup.
+ 4.031 [Frame:1] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 4.031 [Frame:1] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 4.031 [Frame:1] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 4.031 [Frame:1] [ ] Active stereo viewport detected. This requires the 'd3d11.dll' proxy.
+ 4.031 [Frame:1] [+] D3D11 Proxy Dll loaded.
+ 4.031 [Frame:1] [+] Extracted a D3D11 device!000001B9CE75CF98.
+ 4.031 [Frame:1] [+] D3D11 Proxy Dll loaded.
+ 4.031 [Frame:1] [+] Extracted a D3D11 device proxy!
+ 4.031 [Frame:1] [+] gldxinterop extension loaded.
+ 4.031 [Frame:1] [+] DX/GL conversion loaded.
+ 4.033 [Frame:1] [X] Failed Setup DX->GL conversion.
+ 4.033 [Frame:1] [<] End of render textures conversion.
+ 4.033 [Frame:1] [ ] OpenGL: Lock 8 textures. ThreadID: fd48.
+ 4.033 [Frame:1] [ ] Total lock: 0.019 ms.
+ 4.033 [Frame:1] [ ] Clear color buffer
+ 4.038 [Frame:1] [ ] Parsing 4 viewports.
+ 4.038 [Frame:1] [ ] Viewport Center.
+ 4.038 [Frame:1] [ ] Textures Locked for viewport 'Center'.
+ 4.038 [Frame:1] [ ] Displaying RT of cam 'CameraCenter.Left'
+ 4.038 [Frame:1] [ ] VP 'Center': t: 3600, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.039 [Frame:1] [ ] Viewport Floor.
+ 4.039 [Frame:1] [ ] Textures Locked for viewport 'Floor'.
+ 4.039 [Frame:1] [ ] Displaying RT of cam 'CameraFloor.Left'
+ 4.039 [Frame:1] [ ] VP 'Floor': t: 2400, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.039 [Frame:1] [ ] Viewport Left.
+ 4.039 [Frame:1] [ ] Textures Locked for viewport 'Left'.
+ 4.039 [Frame:1] [ ] Displaying RT of cam 'CameraLeft.Left'
+ 4.039 [Frame:1] [ ] VP 'Left': t: 1200, l: 631, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.040 [Frame:1] [ ] Viewport Right.
+ 4.040 [Frame:1] [ ] Textures Locked for viewport 'Right'.
+ 4.040 [Frame:1] [ ] Displaying RT of cam 'CameraRight.Left'
+ 4.040 [Frame:1] [ ] VP 'Right': t: 0, l: 0, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.041 [Frame:1] [ ] Parsing 4 viewports.
+ 4.041 [Frame:1] [ ] Viewport Center.
+ 4.041 [Frame:1] [ ] Textures Locked for viewport 'Center'.
+ 4.041 [Frame:1] [ ] Displaying RT of cam 'CameraCenter.Right'
+ 4.041 [Frame:1] [ ] VP 'Center': t: 3600, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.042 [Frame:1] [ ] Viewport Floor.
+ 4.042 [Frame:1] [ ] Textures Locked for viewport 'Floor'.
+ 4.042 [Frame:1] [ ] Displaying RT of cam 'CameraFloor.Right'
+ 4.042 [Frame:1] [ ] VP 'Floor': t: 2400, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.042 [Frame:1] [ ] Viewport Left.
+ 4.042 [Frame:1] [ ] Textures Locked for viewport 'Left'.
+ 4.042 [Frame:1] [ ] Displaying RT of cam 'CameraLeft.Right'
+ 4.042 [Frame:1] [ ] VP 'Left': t: 1200, l: 631, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.042 [Frame:1] [ ] Viewport Right.
+ 4.042 [Frame:1] [ ] Textures Locked for viewport 'Right'.
+ 4.042 [Frame:1] [ ] Displaying RT of cam 'CameraRight.Right'
+ 4.042 [Frame:1] [ ] VP 'Right': t: 0, l: 0, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.042 [Frame:1] [ ] Unlock textures.
+ 4.042 [Frame:1] [ ] Flush.
+ 4.048 [Frame:1] [ ] SwapLock.
+ 4.048 [Frame:1] [>] ClusterManager::SwapLock: Start.
+ 4.048 [Frame:1] [<] ClusterManager::SwapLock: End.
+ 4.048 [Frame:1] [>] SwapBuffers.
+ 4.086 [Frame:1] [<] SwapBuffers: Done.
+ 4.086 [Frame:1] [ ] Total: 88.9513. Make current: 34.1049, OGL Lock: 0, OGL Draw: 16.6582, SwapLock: 0.0719, SwapBuffers: 38.1149.
+ 4.086 [Frame:1] [<] Finished OpenGL update.
+ 4.089 [Frame:1] [>] Unity: Start of VR PostFrameUpdate.
+ 4.089 [Frame:1] [>] MiddleVR::vrKernel::_PostFrameUpdate
+ 4.089 [Frame:1] [>] DisplayManager::PostFrameUpdate
+ 4.089 [Frame:1] [<] DisplayManager::End of PostFrameUpdate: 0.001 ms.
+ 4.089 [Frame:1] [ ] ClusterManager::PostFrameUpdate
+ 4.089 [Frame:1] [ ] ClusterManager::End of PostFrameUpdate : 0.0015 ms.
+ 4.089 [Frame:2] [<] End of MiddleVR::vrKernel::_PostFrameUpdate.
+ 4.089 [Frame:2] [<] Kernel::PostFrameUpdate End. Moving to frame: 2, Time: 0.0701 ms. *******
+ 4.089 [Frame:2] [<] Unity: End of VR PostFrameUpdate.
+ 4.089 [Frame:2] [ ] If the application is stuck here and you're using Quad-buffer active stereoscopy, make sure that in the Player Settings of Unity, the option 'Run in Background' is checked.
+ 4.089 [Frame:2] [>] Starting OpenGL update.
+ 4.089 [Frame:2] [ ] Update OpenGL window.
+ 4.090 [Frame:2] [ ] Draw render targets.
+ 4.090 [Frame:2] [ ] OpenGL: Lock 8 textures. ThreadID: fd48.
+ 4.090 [Frame:2] [ ] Total lock: 0.02 ms.
+ 4.090 [Frame:2] [ ] Clear color buffer
+ 4.090 [Frame:2] [ ] Parsing 4 viewports.
+ 4.090 [Frame:2] [ ] Viewport Center.
+ 4.090 [Frame:2] [ ] Textures Locked for viewport 'Center'.
+ 4.090 [Frame:2] [ ] Displaying RT of cam 'CameraCenter.Left'
+ 4.090 [Frame:2] [ ] VP 'Center': t: 3600, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.091 [Frame:2] [ ] Viewport Floor.
+ 4.091 [Frame:2] [ ] Textures Locked for viewport 'Floor'.
+ 4.091 [Frame:2] [ ] Displaying RT of cam 'CameraFloor.Left'
+ 4.091 [Frame:2] [ ] VP 'Floor': t: 2400, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.091 [Frame:2] [ ] Viewport Left.
+ 4.091 [Frame:2] [ ] Textures Locked for viewport 'Left'.
+ 4.091 [Frame:2] [ ] Displaying RT of cam 'CameraLeft.Left'
+ 4.091 [Frame:2] [ ] VP 'Left': t: 1200, l: 631, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.091 [Frame:2] [ ] Viewport Right.
+ 4.091 [Frame:2] [ ] Textures Locked for viewport 'Right'.
+ 4.091 [Frame:2] [ ] Displaying RT of cam 'CameraRight.Left'
+ 4.091 [Frame:2] [ ] VP 'Right': t: 0, l: 0, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.091 [Frame:2] [ ] Parsing 4 viewports.
+ 4.091 [Frame:2] [ ] Viewport Center.
+ 4.091 [Frame:2] [ ] Textures Locked for viewport 'Center'.
+ 4.091 [Frame:2] [ ] Displaying RT of cam 'CameraCenter.Right'
+ 4.091 [Frame:2] [ ] VP 'Center': t: 3600, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.092 [Frame:2] [ ] Viewport Floor.
+ 4.092 [Frame:2] [ ] Textures Locked for viewport 'Floor'.
+ 4.092 [Frame:2] [ ] Displaying RT of cam 'CameraFloor.Right'
+ 4.092 [Frame:2] [ ] VP 'Floor': t: 2400, l: 0, w: 1920, h: 1200, wtop: 0, wleft: 1920.
+ 4.092 [Frame:2] [ ] Viewport Left.
+ 4.092 [Frame:2] [ ] Textures Locked for viewport 'Left'.
+ 4.092 [Frame:2] [ ] Displaying RT of cam 'CameraLeft.Right'
+ 4.092 [Frame:2] [ ] VP 'Left': t: 1200, l: 631, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.092 [Frame:2] [ ] Viewport Right.
+ 4.092 [Frame:2] [ ] Textures Locked for viewport 'Right'.
+ 4.092 [Frame:2] [ ] Displaying RT of cam 'CameraRight.Right'
+ 4.092 [Frame:2] [ ] VP 'Right': t: 0, l: 0, w: 1289, h: 1200, wtop: 0, wleft: 1920.
+ 4.092 [Frame:2] [ ] Unlock textures.
+ 4.092 [Frame:2] [ ] Flush.
+ 4.093 [Frame:2] [ ] SwapLock.
+ 4.093 [Frame:2] [>] ClusterManager::SwapLock: Start.
+ 4.093 [Frame:2] [<] ClusterManager::SwapLock: End.
+ 4.093 [Frame:2] [>] SwapBuffers.
+ 4.112 [Frame:2] [X] Caught unhandled exception 'EXCEPTION_ACCESS_VIOLATION', quitting!
+ 4.114 [Frame:2] [ ] (Thread fd48) Destruction of Plugin 'A.R.T. DTrack'.
+ 4.114 [Frame:2] [ ] (Thread fd48) Destruction of Plugin 'DirectInput'.
